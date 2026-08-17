@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Dark theme (default) */
+:root,
+:root[data-theme="dark"] {
+  --bg-primary: #0A0F1E;
+  --bg-secondary: #070B16;
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-bg-hover: rgba(255, 255, 255, 0.05);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-strong: rgba(255, 255, 255, 0.12);
+  --nav-bg: rgba(10, 15, 30, 0.6);
+  --nav-bg-solid: rgba(10, 15, 30, 0.96);
+  --text-primary: #F1F5FB;
+  --text-secondary: #C7D0E0;
+  --text-muted: #8993A9;
+  --text-faint: #5D6880;
+}
+
+/* Light theme */
+:root[data-theme="light"] {
+  --bg-primary: #F7F9FC;
+  --bg-secondary: #FFFFFF;
+  --card-bg: rgba(10, 15, 30, 0.03);
+  --card-bg-hover: rgba(10, 15, 30, 0.05);
+  --border-color: rgba(10, 15, 30, 0.08);
+  --border-color-strong: rgba(10, 15, 30, 0.14);
+  --nav-bg: rgba(255, 255, 255, 0.75);
+  --nav-bg-solid: rgba(255, 255, 255, 0.96);
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-faint: #94A3B8;
+}
+
+body {
+  background: var(--bg-primary);
+  font-family: 'Inter', sans-serif;
+  transition: background 0.25s ease;
+}

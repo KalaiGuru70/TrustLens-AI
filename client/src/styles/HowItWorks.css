@@ -1,0 +1,116 @@
+.how-it-works {
+  position: relative;
+  padding: 100px 8vw 110px;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-color);
+}
+
+.hiw-head {
+  max-width: 600px;
+  margin: 0 auto 64px;
+  text-align: center;
+}
+
+.hiw-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(34,211,238,0.08);
+  border: 1px solid rgba(34,211,238,0.25);
+  color: #67E8F9;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.hiw-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 18px 0 12px;
+  letter-spacing: -0.02em;
+}
+
+.hiw-sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.hiw-track {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  position: relative;
+}
+
+.hiw-track::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: calc(16.6% + 20px);
+  right: calc(16.6% + 20px);
+  height: 1px;
+  background: linear-gradient(90deg, rgba(34,211,238,0.4), rgba(99,102,241,0.4));
+}
+
+.hiw-step {
+  position: relative;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hiw-step-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.hiw-icon-circle {
+  position: relative;
+  z-index: 2;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22D3EE;
+}
+
+.hiw-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--text-faint);
+  position: absolute;
+  top: -22px;
+}
+
+.hiw-step-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.hiw-step-desc {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-muted);
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 780px) {
+  .hiw-track { grid-template-columns: 1fr; gap: 46px; }
+  .hiw-track::before { display: none; }
+  .how-it-works { padding: 70px 6vw 80px; }
+}
