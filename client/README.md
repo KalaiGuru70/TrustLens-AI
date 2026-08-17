@@ -1,4 +1,6 @@
 # 🛡️ TrustLens AI
+## Live Demo
+[🚀 Try TrustLens AI](https://trustlens-ai-beige.vercel.app/)
 
 TrustLens AI is an AI-powered scam detection tool that helps users identify suspicious messages before they click, reply, or make a payment.
 
