@@ -6,10 +6,6 @@ TrustLens AI is an AI-powered scam detection tool that helps users identify susp
 
 It analyzes messages for common scam patterns and provides a clear risk score, explanation, red flags, and safety tips.
 
-## 🚀 Live Demo
-
-[View TrustLens AI](YOUR_LIVE_LINK_HERE)
-
 ## 📸 Screenshots
 
 ### 1. Home
