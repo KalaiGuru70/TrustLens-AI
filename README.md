@@ -9,7 +9,7 @@ It analyzes messages for common scam patterns and provides a clear risk score, e
 ## 📸 Screenshots
 
 ### 1. Home
-![Home](client/Screenshots/Home.png)
+![Home](./client/Screenshots/Home.png)
 
 ### 2. Features
 ![Features](client/Screenshots/Features.png)
