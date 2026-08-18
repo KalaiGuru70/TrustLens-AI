@@ -9,28 +9,22 @@ It analyzes messages for common scam patterns and provides a clear risk score, e
 ## 📸 Screenshots
 
 ### 1. Home
-
-![Home](Screenshots/Home.png)
+![Home](client/Screenshots/Home.png)
 
 ### 2. Features
-
-![Features](Screenshots/Features.png)
+![Features](client/Screenshots/Features.png)
 
 ### 3. How It Works
-
-![How It Works](Screenshots/How-It-Works.png)
+![How It Works](client/Screenshots/How-It-Works.png)
 
 ### 4. Analyze
-
-![Analyze](Screenshots/Analyze1.png)
+![Analyze](client/Screenshots/Analyze1.png)
 
 ### 5. Analyze Result
-
-![Analyze Result](Screenshots/Analyze2.png)
+![Analyze Result](client/Screenshots/Analyze2.png)
 
 ### 6. Share Result
-
-![Share Result](Screenshots/Share_Result.png)
+![Share Result](client/Screenshots/Share_Result.png)
 
 ## ✨ Features
 
